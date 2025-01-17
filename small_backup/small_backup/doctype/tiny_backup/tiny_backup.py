@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 from frappe.utils.background_jobs import enqueue
-from tiny_backup.tiny_backup.doctype.tiny_backup.backups import backup
+from small_backup.small_backup.doctype.tiny_backup.backups import backup
 
 class TinyBackup(Document):
 	@frappe.whitelist()
